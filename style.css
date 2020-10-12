@@ -1,17 +1,12 @@
-@font-face {
-    src: url(fonts/BasicaRegular.ttf);
-    font-family: MyFont;
-}
-
-.paragraph {
-    font-size: 50px;
-    line-height: 50px;
-    font-family: MyFont;
-}
-
-.header {
-    background-image: url(/images/1.jpg);
-    background-size: cover;
-    height: 900px;
-    text-align: center;
-}
+        @font-face {
+            src: url(fonts/BasicaRegular.ttf);
+            font-family: MyFont;
+        }
+        
+        .header {
+            background-size: cover;
+            background-image: url(/images/1.jpg);
+            height: 1000px;
+            text-align: center;
+            filter: brightness(20%);
+        }
