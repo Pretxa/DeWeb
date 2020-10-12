@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'MyWebFont';
-    src: url(/BasicaRegular.ttf)
+    src: url("BasicaRegular.ttf") format('truetype');
 }
 html {
     font-family: 'Poppins', sans-serif;
