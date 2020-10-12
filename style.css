@@ -1,3 +1,7 @@
+@font-face{
+    font-family: 'MyWebFont';
+    src: url(/BasicaRegular.ttf)
+}
 html {
     font-family: 'Poppins', sans-serif;
 }
