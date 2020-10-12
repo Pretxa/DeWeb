@@ -8,3 +8,10 @@
     line-height: 50px;
     font-family: MyFont;
 }
+
+.header {
+    background-image: url(/images/1.jpg);
+    background-size: cover;
+    height: 900px;
+    text-align: center;
+}
