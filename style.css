@@ -6,7 +6,8 @@
         .header {
             background-size: cover;
             background-image: url(/images/1.jpg);
-            height: 1500px;
+            height: 949px;
+            width: 1848px;
             text-align: center;
             filter: brightness(20%);
         }
