@@ -86,10 +86,51 @@ html {
 .container h1 {
     font-family: Poppins;
     color: rgb(120, 21, 185);
-    font-size: 100px;
+    font-size: 72px;
     position: absolute;
+    text-transform: uppercase;
     margin: 0;
-    top: 50%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 70px;
+    background-color: #080808;
+}
+
+#Github {
+    width: 32px;
+    height: 32px;
+    transform: translate(1790px, 50%);
+}
+
+#Steam {
+    width: 32px;
+    height: 32px;
+    transform: translate(1680px, 19px);
+}
+
+#Twitter {
+    width: 32px;
+    height: 32px;
+    transform: translate(1570px, 19px);
+}
+
+#YouTube {
+    width: 32px;
+    height: 32px;
+    transform: translate(1460px, 19px);
+}
+
+#Twitch {
+    width: 32px;
+    height: 32px;
+    transform: translate(1350px, 20px);
 }
