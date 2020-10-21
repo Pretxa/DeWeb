@@ -36,7 +36,7 @@ html {
     width: 100%;
     text-align: center;
     position: absolute;
-    background-image: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(/images/1.jpg)
+    background-image: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(/images/pixel-jeff-clipa-s.gif);
 }
 
 .header h2 {
