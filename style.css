@@ -95,6 +95,10 @@ html {
     transform: translate(-50%, -50%);
 }
 
+.gif {
+    padding: 350px 850px;
+}
+
 .navbar {
     position: fixed;
     top: 0;
