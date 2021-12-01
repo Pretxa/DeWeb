@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="/glitcheffect.css">
     <title>Pretza</title>
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <script>
+        function time_since_update() {
+
+            last_update = new Date('2021-05-14')
+            now = Date.now()
+            difference = now-last_update
+            days = Math.round(difference/86400000)
+            document.write(days)
+        }   
+
+    </script>
 </head>
 
 <body>
@@ -34,12 +45,20 @@
     <!-- End of top/header-->
 
     <div id="middle">
-        <div class="container">
+        <div class="timer">
+            <script>document.write('Days since last update: ') + time_since_update()</script>
+        </div>
+        <div class="image">
+            <image src="./images/chpis.gif"></image>
+        </div>
+
+        <!-- <div class="container">
             <h1> Coming soon</h1>
                 <div class="gif">
                     <image src="./images/forsenpls3.gif"></image>
-                </div>
-        </div>
+                </div> -->
+
+
     </div>
 </body>
 

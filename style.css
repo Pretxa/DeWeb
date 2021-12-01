@@ -81,7 +81,9 @@ html {
     height: 100vh;
     position: absolute;
     transform: translate(0%, 100%);
+    
 }
+
 
 .container h1 {
     font-family: Poppins;
@@ -95,10 +97,24 @@ html {
     transform: translate(-50%, -50%);
 }
 
-.gif {
+/* .gif {
     padding: 295px 800px;
+} */
+.timer{
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    font-size: 50px;
+    color: #FFFF;
+    font-family: Poppins;
 }
-
+.image{
+    margin: 0;
+    left: 31.5%;
+    top: 45%;
+    position: absolute;
+}
 .navbar {
     position: fixed;
     top: 0;
